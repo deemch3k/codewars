@@ -25,11 +25,6 @@ import java.util.Arrays;
 
 public class Interval {
 
-    public static void main(String[] args) {
-
-        System.out.println(sumIntervals(new int[][]{{1, 5}, {10, 20}, {1, 6}, {16, 19}, {5, 11}}));
-
-    }
 
     public static int sumIntervals(int[][] intervals) {
 
