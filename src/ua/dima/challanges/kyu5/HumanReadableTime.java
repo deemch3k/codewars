@@ -13,16 +13,6 @@ You can find some examples in the test fixtures.
 
 public class HumanReadableTime {
 
-    public static void main(String[] args) {
-        System.out.println(HumanReadableTime.makeReadable(38322));
-        System.out.println(HumanReadableTime.makeReadable(5));
-        System.out.println(HumanReadableTime.makeReadable(60));
-        System.out.println(HumanReadableTime.makeReadable(86399));
-        System.out.println(HumanReadableTime.makeReadable(359999));
-    }
-
-    //String.format("%02d:%02d:%02d", seconds / 3600, (seconds / 60) % 60, seconds % 60);
-
     public static String makeReadable(int seconds) {
 
         int minutes;

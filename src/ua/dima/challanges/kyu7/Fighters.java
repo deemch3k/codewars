@@ -15,11 +15,6 @@ You can mutate the Fighter objects.
 
 public class Fighters {
 
-    public static void main(String[] args) {
-
-        System.out.println(declareWinner(new Fighter("Lew", 10, 2),new Fighter("Harry", 5, 4), "Lew"));
-    }
-
     public static String declareWinner(Fighter fighter1, Fighter fighter2, String firstAttacker) {
         while (fighter1.health >= 0 || fighter2.health >= 0) {
             if (fighter1.name.equals(firstAttacker)) {

@@ -4,9 +4,6 @@ import java.util.Arrays;
 
 public class HighAndLow {
 
-    public static void main(String[] args) {
-        System.out.println(highAndLow("1 -1"));
-    }
 
     public static String highAndLow(String numbers) {
 

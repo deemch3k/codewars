@@ -16,10 +16,6 @@ import java.util.Map;
 
 public class Order {
 
-    public static void main(String[] args) {
-        System.out.println(order("is2 Thi1s T4est 3a"));
-    }
-
     public static String order(String words) {
 
         String[] arr = words.split(" ");

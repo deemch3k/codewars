@@ -24,14 +24,6 @@ NOTE 2: The 0x0 (empty matrix) is represented as en empty array inside an array 
 
 public class Snail {
 
-    public static void main(String[] args) {
-        int[][] array
-                = {{1, 2, 3},
-                {4, 5, 6},
-                {7, 8, 9}};
-        System.out.println(snail(array).toString());
-    }
-
     public static int[] snail(int[][] array) {
 
         if (array[0].length <= 0) {

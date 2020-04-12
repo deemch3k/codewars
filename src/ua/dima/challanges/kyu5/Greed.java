@@ -31,11 +31,6 @@ This is something that you should never do. If you mutate the input, you will no
 
 public class Greed {
 
-    public static void main(String[] args) {
-        System.out.println(greedy(new int[]{5, 1, 3, 4, 1}));
-    }
-
-
     public static int greedy(int[] dice) {
 
         if(dice.length != 5) return 0;

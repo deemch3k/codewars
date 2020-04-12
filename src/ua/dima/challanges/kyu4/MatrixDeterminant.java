@@ -7,16 +7,6 @@ How to take the determinant of a matrix -- it is simplest to start with the smal
 
 public class MatrixDeterminant {
 
-    public static void main(String[] args) {
-        int[][] a = {
-                {1,5,7},
-                {3,7,9},
-                {6,1,1}
-        };
-        determinant(a);
-        System.out.println(Math.pow(-1, 3));
-    }
-
     public static int determinant(int[][] matrix) {
         int res = 0;
         if(matrix.length == 1) return matrix[0][0];

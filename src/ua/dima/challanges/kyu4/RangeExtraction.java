@@ -13,12 +13,6 @@ in the range format.
 
 public class RangeExtraction {
 
-    public static void main(String[] args) {
-
-        System.out.println(rangeExtraction(new int[]{-1, -2, -4, -7, -9, -10}));
-
-    }
-
     public static String rangeExtraction(int[] arr) {
 
         String res = "";

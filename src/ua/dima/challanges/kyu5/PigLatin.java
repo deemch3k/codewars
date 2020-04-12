@@ -7,10 +7,6 @@ Move the first letter of each word to the end of it, then add "ay" to the end of
 
 public class PigLatin {
 
-    public static void main(String[] args) {
-        System.out.println(pigIt("This is my string"));
-    }
-
     public static String pigIt(String str) {
         String[] arr = str.split(" ");
         char first;

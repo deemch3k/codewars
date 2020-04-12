@@ -21,21 +21,6 @@ import java.util.Arrays;
 
 public class BattleField {
 
-    public static void main(String[] args) {
-        int[][] battleField = {{1, 1, 1, 1, 0, 1, 1, 1, 0, 1},
-                {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
-                {1, 1, 1, 0, 1, 1, 0, 1, 1, 0},
-                {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
-                {1, 1, 0, 0, 0, 0, 1, 0, 1, 0},
-                {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
-                {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
-                {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
-                {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
-                {0, 0, 0, 0, 0, 1, 0, 0, 0, 0}};
-
-        System.out.println(fieldValidator(battleField));
-    }
-
     public static boolean fieldValidator(int[][] field) {
 
         final int WALL = -1;

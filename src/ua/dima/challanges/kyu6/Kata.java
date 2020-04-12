@@ -25,10 +25,6 @@ I have also created other katas. Take a look if you enjoyed this kata!
 
 public class Kata {
 
-    public static void main(String[] args) {
-        System.out.println(findMissingLetter(new char[] { 'O','Q','R','S' }));
-    }
-
     public static char findMissingLetter(char[] array) {
         char upper = 65;
         char lower = 97;
