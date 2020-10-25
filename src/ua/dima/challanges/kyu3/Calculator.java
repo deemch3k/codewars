@@ -85,19 +85,3 @@ public class Calculator {
     }
 
 }
-
-/*
-
-            if(arr.length == i + 1) res.append(arr[i-1]).append(" ").append(arr[i]).append(" ");
-
-
-while(runWhile){
-            if(arr.get(counter).equals("(")){
-                indexOfBrace = arr.indexOf(arr.get(counter));
-                for (int i = indexOfBrace; i < arr.size(); i++) {
-                    if(arr.get(counter).equals("(")) indexOfBrace = arr.indexOf(arr.get(counter));
-                    if(arr.get(counter).equals(")")) temp.subList(indexOfBrace, arr.indexOf(arr.get(counter)));
-                }
-            }
-        }
- */
