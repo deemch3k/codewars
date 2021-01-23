@@ -17,6 +17,7 @@ Any additional ships are not allowed, as well as missing ships.
 Each ship must be a straight line, except for submarines, which are just single cell.
  */
 
+
 import java.util.Arrays;
 
 public class BattleField {
